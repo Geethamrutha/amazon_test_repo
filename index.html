@@ -252,15 +252,11 @@
 
         var url = e.data.url;
 
-        if (e.data.action === "nav_checking") {
-            loadiFrame('https://www.wesbanco.com/investment/financial-consulting/our-services/');
-            console.log("nav_checking")
+        if (e.data.action === "nav_headphones") {
+            loadiFrame('https://www.amazon.com/s?k=headsets&crid=2Z9WJQ531IX3D&sprefix=headsets%2Caps%2C358&ref=nb_sb_ss_ts-doa-p_1_8');
+            console.log("nav_headphones")
         }
-		else if (e.data.action === "nav_loan_organization") {
-            //loadiFrame('https://us10.dev.amelia.com/Amelia/ui/mortgage/chat?domainCode=bankingmortgage');
-			window.location.href = "https://geethamrutha.github.io/banking_mortgage/";
-            console.log("nav_loan_organization")
-        }
+	
 		
     }
 
